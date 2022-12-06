@@ -10,6 +10,9 @@ namespace Generics
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Welcome To Generics Problem");
+            FindMaxNum.MaxValue(70, 70, 70);
+            Console.ReadLine();
         }
     }
 }
