@@ -11,7 +11,7 @@ namespace Generics
         static void Main(string[] args)
         {
             Console.WriteLine("Welcome To Generics Problem");
-            FindMaxNum.MaxValue(70, 70, 70);
+            FindMaxNum.MaxValue(86.92f, 41.171f, 39.6f);
             Console.ReadLine();
         }
     }
