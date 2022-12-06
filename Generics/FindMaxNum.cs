@@ -8,6 +8,43 @@ namespace Generics
 {
     internal class FindMaxNum
     {
+        //UC1
+        public static void MaxValue(int first, int second, int third)
+        {
+            if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
+            {
+                Console.WriteLine("{0} is Maximum", first);
+            }
+            else if (second.CompareTo(first) > 0 && second.CompareTo(third) > 0)
+            {
+                Console.WriteLine("{0} is  Maximum", second);
+            }
+            else if (third.CompareTo(first) > 0 && third.CompareTo(second) > 0)
+            {
+                Console.WriteLine("{0} is Maximum", third);
+            }
+            else
+                Console.WriteLine("All The Numbers Are Equal");
+        }
+        //UC2
+        public static void MaxValue(float first, float second, float third)
+        {
+            if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
+            {
+                Console.WriteLine("{0} is Maximum", first);
+            }
+            else if (second.CompareTo(first) > 0 && second.CompareTo(third) > 0)
+            {
+                Console.WriteLine("{0} is  Maximum", second);
+            }
+            else if (third.CompareTo(first) > 0 && third.CompareTo(second) > 0)
+            {
+                Console.WriteLine("{0} is Maximum", third);
+            }
+            else
+                Console.WriteLine("All The Numbers Are Equal");
+        }
+        //UC3
         public static void MaxValue(string first, string second, string third)
         {
             if (first.CompareTo(second) > 0 && first.CompareTo(third) > 0)
@@ -24,7 +61,7 @@ namespace Generics
             }
             else
                 Console.WriteLine("All The Numbers are Equal");
-                Console.ReadLine();
+            Console.ReadLine();
         }
     }
 }
