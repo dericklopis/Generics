@@ -18,7 +18,7 @@ namespace Generics
                 Console.WriteLine(item);
             }
         }
-        public static void FindMaxValue(T first, T second, T third)
+        public void FindMaxValue(T first, T second, T third)
         {
             if (first.CompareTo(second) >= 0 && first.CompareTo(third) >= 0)
             {
