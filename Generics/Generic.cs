@@ -9,6 +9,15 @@ namespace Generics
     //Refactor2(Create Generic class)
     internal class GenericsFindMax<T> where T : IComparable
     {
+        //UC4
+        public void MaxVal(T[] array)
+        {
+            Array.Sort(array);
+            foreach (T item in array)
+            {
+                Console.WriteLine(item);
+            }
+        }
         public static void FindMaxValue(T first, T second, T third)
         {
             if (first.CompareTo(second) >= 0 && first.CompareTo(third) >= 0)
